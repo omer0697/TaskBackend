@@ -1,0 +1,26 @@
+{
+    "name": "task",
+    "version": "1.0.0",
+    "description": "Your Node.js application description",
+    "main": "src/app.js",
+    "scripts": {
+      "start": "node src/app.js",
+      "dev": "nodemon src/app.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^6.0.1"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.14"
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "your-git-repository-url"
+    },
+    "license": "MIT"
+  }
+  
